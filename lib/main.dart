@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
           foregroundColor: AppColors.primary,
           centerTitle: false,
         ),
+        sliderTheme: SliderThemeData(year2023: false),
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
