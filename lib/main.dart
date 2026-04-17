@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:green_track/providers/carbon_provider.dart';
+import 'package:provider/provider.dart';
 import 'package:green_track/l10n/app_localizations.dart';
 import 'package:green_track/pages/wizard_page/wizard_page.dart';
 import 'package:green_track/res/app_colors.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (BuildContext context) => CarbonProvider(),
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {

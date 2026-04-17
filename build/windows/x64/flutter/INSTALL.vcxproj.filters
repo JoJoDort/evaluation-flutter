@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lol-m\Documents\Annee 2025-2026\Android\esilv_template_exam\build\windows\x64\CMakeFiles\40013b56d25f0fafb9769b9e95eaebee\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{094BA55C-64C3-3878-A1B7-1C08D4797031}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
